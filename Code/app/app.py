@@ -69,5 +69,44 @@ def index():
     return render_template('index.html')
 
 
+@app.route('/about', methods=['GET'])
+def about():
+    return render_template('about.html')
+
+
+@app.route('/contact', methods=['GET', 'POST'])
+def contact():
+    if request.method == 'POST':
+        # Handle contact form submission
+        print("Contact message received")
+    return render_template('contact.html')
+
+
+@app.route('/faq', methods=['GET'])
+def faq():
+    return render_template('faq.html')
+
+
+@app.route('/features', methods=['GET'])
+def features():
+    return render_template('features.html')
+
+
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    if request.method == 'POST':
+        # Handle login logic
+        print("Login attempt")
+    return render_template('login.html')
+
+
+@app.route('/signup', methods=['GET', 'POST'])
+def signup():
+    if request.method == 'POST':
+        # Handle signup logic
+        print("Signup attempt")
+    return render_template('signup.html')
+
+
 if __name__ == "__main__":
     app.run(debug=True)
