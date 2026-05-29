@@ -1,0 +1,105 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block body %}
+<header style="height: 30vh;">
+    <nav>
+        <div class="container">
+            <h3 class="logo" style="color: #008000; font-weight: 1000;">Eco<span
+                    style="color: #ffffff;">Fertilization</span></h3>
+            <ul class="nav-menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About Us</a></li>
+                <li><a href="/features">Features</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="/faq">FAQ</a></li>
+                <li><a href="/login">Login</a></li>
+                <li><a href="/signup">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+    <h1 class="big-title translate" data-speed="0.5">About Us</h1>
+</header>
+
+<section>
+    <div class="container">
+        <div class="content">
+            <h2>About Eco-Fertilization</h2>
+            <p>Eco-Fertilization is an innovative platform designed to help farmers and agricultural professionals optimize their fertilizer usage while promoting sustainable farming practices.</p>
+            
+            <h3>Our Mission</h3>
+            <p>To empower farmers with data-driven insights for better crop nutrition management, reducing costs, and promoting environmentally conscious agricultural practices.</p>
+            
+            <h3>How It Works</h3>
+            <p>Our system uses advanced machine learning algorithms combined with real-time weather data to provide personalized NPK (Nitrogen, Phosphorus, Potassium) recommendations based on:</p>
+            <ul class="about-list">
+                <li>✓ Crop Type</li>
+                <li>✓ Geographic Location</li>
+                <li>✓ Current Weather Conditions</li>
+                <li>✓ Seasonal Patterns</li>
+                <li>✓ Historical Data</li>
+            </ul>
+
+            <h3>Why Choose Eco-Fertilization?</h3>
+            <ul class="about-list">
+                <li>✅ Scientifically accurate recommendations</li>
+                <li>✅ Real-time weather integration</li>
+                <li>✅ Cost-effective fertilizer usage</li>
+                <li>✅ Environmental sustainability</li>
+                <li>✅ Easy-to-use interface</li>
+                <li>✅ Detailed analytics and reporting</li>
+            </ul>
+        </div>
+
+        <div class="imgcontainer">
+            <img src="static/parallax/ferti.png" alt="Fertilization">
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container2">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/faq">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Info</h4>
+                <ul>
+                    <li><a href="mailto:info@ecofertilization.com">info@ecofertilization.com</a></li>
+                    <li><a href="tel:+919876543210">+91 9876543210</a></li>
+                    <li><a href="#">Bangalore, India</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+{% endblock %}
