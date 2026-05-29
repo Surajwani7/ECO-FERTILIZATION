@@ -1,0 +1,127 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block body %}
+<header style="height: 30vh;">
+    <nav>
+        <div class="container">
+            <h3 class="logo" style="color: #008000; font-weight: 1000;">Eco<span
+                    style="color: #ffffff;">Fertilization</span></h3>
+            <ul class="nav-menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About Us</a></li>
+                <li><a href="/features">Features</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="/faq">FAQ</a></li>
+                <li><a href="/login">Login</a></li>
+                <li><a href="/signup">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+    <h1 class="big-title translate" data-speed="0.5">FAQ</h1>
+</header>
+
+<section>
+    <div class="container" style="grid-template-columns: 1fr;">
+        <div class="content">
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <h3 class="faq-question">❓ What is Eco-Fertilization?</h3>
+                <p class="faq-answer">Eco-Fertilization is an AI-powered platform that provides personalized fertilizer recommendations based on your crop type, location, and weather conditions to optimize crop yields while promoting sustainable farming.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3 class="faq-question">❓ How do I get started?</h3>
+                <p class="faq-answer">Simply visit our website, select your crop type, state, and city, and click submit. Our system will analyze the data and provide you with detailed NPK recommendations within seconds.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3 class="faq-question">❓ What is NPK?</h3>
+                <p class="faq-answer">NPK stands for Nitrogen (N), Phosphorus (P), and Potassium (K) - the three primary nutrients essential for plant growth. Our recommendations specify the optimal amounts of each for your specific crop.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3 class="faq-question">❓ How accurate are the recommendations?</h3>
+                <p class="faq-answer">Our recommendations are based on machine learning models trained on extensive agricultural data, current weather conditions, and scientific research. They are highly accurate and continuously improved.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3 class="faq-question">❓ Can I export my results?</h3>
+                <p class="faq-answer">Yes! After getting your recommendations, you can export the detailed report as a PDF file for your records or to share with agricultural consultants.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3 class="faq-question">❓ Is the service free?</h3>
+                <p class="faq-answer">Yes, our basic recommendations are completely free. We also offer premium features with enhanced analytics and historical tracking.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3 class="faq-question">❓ Which crops are supported?</h3>
+                <p class="faq-answer">We support a wide range of crops including wheat, rice, corn, sugarcane, cotton, soybeans, and many more. New crops are added regularly.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3 class="faq-question">❓ How often should I check for updates?</h3>
+                <p class="faq-answer">Weather conditions change frequently. We recommend checking for updated recommendations weekly or whenever significant weather changes occur.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3 class="faq-question">❓ What if I need help?</h3>
+                <p class="faq-answer">Visit our Contact page or email us at info@ecofertilization.com. Our support team is available Monday to Friday, 9 AM to 6 PM.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3 class="faq-question">❓ Is my data secure?</h3>
+                <p class="faq-answer">Yes, we use industry-standard encryption to protect your data. Your information is never shared with third parties without your consent.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container2">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/faq">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Info</h4>
+                <ul>
+                    <li><a href="mailto:info@ecofertilization.com">info@ecofertilization.com</a></li>
+                    <li><a href="tel:+919876543210">+91 9876543210</a></li>
+                    <li><a href="#">Bangalore, India</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+{% endblock %}
