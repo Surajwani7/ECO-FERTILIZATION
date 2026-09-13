@@ -1,4 +1,4 @@
-# ChatGPT Prompts for ECO-FERTILIZATION Project Documentation
+# ECO-FERTILIZATION Project Documentation
 
 ## Purpose
 This document provides ready-to-use ChatGPT prompts for generating college-level documentation sections for the Eco-Fertilization project.
