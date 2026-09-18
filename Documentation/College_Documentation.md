@@ -1057,90 +1057,10 @@ Include: Roadmap, timeline, resource estimation, risk assessment
 
 ---
 
-## 🎓 BONUS: GENERAL COLLEGE DOCUMENTATION PROMPTS
 
-### Prompt B.1: Abstract & Executive Summary
-```
-Write an abstract and executive summary for the Eco-Fertilization college project.
 
-Abstract (150-200 words):
-- Brief overview of problem
-- Solution approach
-- Key technologies used
-- Main results achieved
-- Contribution to field
 
-Executive Summary (500-700 words):
-- Project background and motivation
-- Objectives and scope
-- System architecture overview
-- Key implementation details
-- Results and achievements
-- Recommendations
-- Future work
 
-Format: Academic abstract for college thesis
-Include: Keywords, problem statement, solution, results
-```
-
-### Prompt B.2: Project Presentation Outline
-```
-Create a comprehensive presentation outline for an Eco-Fertilization college project presentation.
-
-Presentation Structure:
-1. Title Slide (Project name, team, date, institution)
-2. Agenda (Overview of presentation)
-3. Problem Statement (Issue being addressed)
-4. Motivation (Why this project matters)
-5. System Overview (High-level architecture)
-6. Technical Details (Implementation, algorithms)
-7. Results & Achievements (Metrics, performance)
-8. Demo (System walkthrough)
-9. Challenges & Solutions (Obstacles and resolutions)
-10. Future Work (Next steps)
-11. Conclusion (Key takeaways)
-12. Q&A Slide
-
-For each slide provide:
-- Key talking points
-- Visual elements to include (described)
-- Data/statistics to show
-- Potential questions and answers
-
-Duration: 15-20 minutes
-Include: Speaker notes for each slide
-```
-
-### Prompt B.3: Bibliography & References
-```
-Generate a comprehensive bibliography section for the Eco-Fertilization project.
-
-Research areas to reference:
-1. Precision Agriculture & Smart Farming (10-15 references)
-2. Machine Learning in Agriculture (8-10 references)
-3. Decision Support Systems (8-10 references)
-4. Weather Data Applications (5-8 references)
-5. NPK Nutrient Management (8-10 references)
-6. Web Technologies & Frameworks (5-7 references)
-7. Software Engineering & Requirements (5-6 references)
-
-Format: IEEE citation style
-
-Include:
-- Peer-reviewed journal articles
-- Conference papers
-- Technical documentation
-- Books on agriculture and ML
-- Official API documentation
-- Open-source software documentation
-
-Organize by:
-- Theme/Category
-- Publication year (most recent first)
-- Authors and publication details
-```
-
----
 
 ## 📌 USAGE INSTRUCTIONS
 
@@ -1171,22 +1091,7 @@ Organize by:
    - Request additional details
    - Get clarification on technical points
 
-### Follow-up Prompt Suggestions:
 
-```
-If you need to refine content, use these follow-up prompts:
-
-"Can you expand section [X] with more technical details?"
-"Please add 3 real-world examples to illustrate [topic]"
-"Format this as a table with [specific columns]"
-"Explain this in simpler terms for a non-technical audience"
-"Add more citations and references to this section"
-"Can you make this more detailed and add code examples?"
-"Create a summary table for this content"
-"Add comparison with existing systems to this section"
-```
-
----
 
 ## 📋 DOCUMENTATION CHECKLIST
 
@@ -1216,35 +1121,9 @@ Use this checklist to track your documentation progress:
 
 ---
 
-## 💡 TIPS FOR BEST RESULTS
-
-1. **Be Specific:** Provide detailed context about your project
-2. **Iterate:** Ask follow-up questions to refine content
-3. **Verify:** Check generated content for accuracy
-4. **Customize:** Adapt content to your college requirements
-5. **Cite:** Add references and citations as needed
-6. **Format:** Maintain consistent formatting throughout
-7. **Review:** Have peers review generated content
-8. **Edit:** Personalize generated content with your insights
 
 ---
-
-## 🔗 RELATED RESOURCES
-
-- Academic writing style guides
-- IEEE documentation standards
-- GitHub repository for project code
-- Project documentation files
-- DFD and ER diagrams
-- Test cases and results
-- Meeting notes and decisions
-- Project timeline and milestones
-
----
-
-This document provides comprehensive ChatGPT prompts for all major sections of your college documentation. Use these as starting points and customize them based on your specific requirements and institution's guidelines.
-
 **Last Updated:** June 2026
 **Project:** Eco-Fertilization System
-**Institution:** [Your College Name]
+**Institution:** .....
 ```
